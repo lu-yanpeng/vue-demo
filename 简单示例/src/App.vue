@@ -3,6 +3,7 @@
     <li><router-link to="/kg">开关</router-link></li>
     <li><router-link to="/lbt">轮播图</router-link></li>
     <li><router-link to="/fpq">翻牌器</router-link></li>
+    <li><router-link to="/ajax">ajax请求</router-link></li>
   </ul>
 
   <router-view />
@@ -18,7 +19,7 @@ ul.nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  grid-template-columns: repeat(auto-fill, minmax(50px, auto));
+  grid-template-columns: repeat(auto-fill, minmax(100px, auto));
   justify-items: center;
 
   li {

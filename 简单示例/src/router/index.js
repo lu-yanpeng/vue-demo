@@ -13,6 +13,10 @@ const routes = [
     path: '/fpq',
     component: import('../views/Flip.vue')
   },
+  {
+    path: '/ajax',
+    component: import('../views/comp-ajax/Index.vue')
+  },
 ]
 
 const router = createRouter({
