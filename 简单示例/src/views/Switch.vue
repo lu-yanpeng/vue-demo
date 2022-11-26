@@ -10,12 +10,17 @@
 </template>
 
 <script setup>
-defineProps(['modelValue'])
+defineProps({
+  modelValue: {
+    type: Boolean,
+    default: false
+  }
+})
 defineEmits(['update:modelValue'])
 
 </script>
 
-<style scoped>
+<style scoped lang="less">
 /* 开关——滑块周围的盒子 */
 .switch {
   font-size: 17px;
