@@ -2,6 +2,7 @@
   <ul class="nav">
     <li><router-link to="/kg">开关</router-link></li>
     <li><router-link to="/lbt">轮播图</router-link></li>
+    <li><router-link to="/fpq">翻牌器</router-link></li>
   </ul>
 
   <router-view />

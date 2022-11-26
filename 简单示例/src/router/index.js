@@ -9,6 +9,10 @@ const routes = [
     path: '/lbt',
     component: import('../views/Carousel.vue')
   },
+  {
+    path: '/fpq',
+    component: import('../views/Flip.vue')
+  },
 ]
 
 const router = createRouter({
