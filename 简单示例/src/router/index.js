@@ -17,6 +17,10 @@ const routes = [
     path: '/ajax',
     component: import('../views/comp-ajax/Index.vue')
   },
+  {
+    path: '/setTimeout',
+    component: import('../views/set-timeout/Index.vue')
+  }
 ]
 
 const router = createRouter({

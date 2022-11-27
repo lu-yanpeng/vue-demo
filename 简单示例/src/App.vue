@@ -4,6 +4,7 @@
     <li><router-link to="/lbt">轮播图</router-link></li>
     <li><router-link to="/fpq">翻牌器</router-link></li>
     <li><router-link to="/ajax">ajax请求</router-link></li>
+    <li><router-link to="/setTimeout">延时调用</router-link></li>
   </ul>
 
   <router-view />
