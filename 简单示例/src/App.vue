@@ -5,9 +5,14 @@
     <li><router-link to="/fpq">翻牌器</router-link></li>
     <li><router-link to="/ajax">ajax请求</router-link></li>
     <li><router-link to="/setTimeout">延时调用</router-link></li>
+    <li><router-link to="/setInterval">定时器</router-link></li>
   </ul>
 
-  <router-view />
+  <router-view v-slot="{ Component }">
+    <keep-alive :max="10">
+      <component :is="Component"/>
+    </keep-alive>
+  </router-view>
 </template>
 
 <script setup>

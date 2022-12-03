@@ -20,6 +20,10 @@ const routes = [
   {
     path: '/setTimeout',
     component: import('../views/set-timeout/Index.vue')
+  },
+  {
+    path: '/setInterval',
+    component: import('../views/set-interval/index.vue')
   }
 ]
 
