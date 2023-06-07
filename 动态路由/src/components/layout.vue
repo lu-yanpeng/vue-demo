@@ -32,7 +32,7 @@ const addRoute = async () => {
         // 参考：https://cn.vitejs.dev/guide/features.html#dynamic-import
         if (path.length === 1) {
           // 如果是单个vue文件
-          childRoute.component = () => import(`@/views/${path}.vue`)
+          childRoute.component = () => import(`@/views/${path[0]}.vue`)
         } else {
           // 否则就是一个目录
           childRoute.component = () => import(`@/views/${path[0]}/${path[1]}.vue`)
