@@ -49,8 +49,9 @@ const addRoute = async () => {
 }
 const login = async () => {
   await addRoute()
+  await router.replace({name: 'welcomeMain'})
   needAddRoutes.value = false
-  console.log('获取到的路由', server_route.value)
+  console.log('动态添加的路由', server_route.value)
 }
 </script>
 
